@@ -1,0 +1,28 @@
+<head>
+    <body>
+        <script>
+            var kelinci = {
+                nama : "harley",
+                warna : "abu_abu",
+                jumlah_kaki : 4,
+                mata : {
+                    warna_mata : "hitam",
+                    warna_pupil : "abu_abu",
+                },
+                dipanggil : function (){
+                    return "gemesh";
+                },
+
+                 tidur : function (){
+                    return "tidur di kasur";
+                 },
+                
+          }
+           // saya punya kelinci
+          // dia namanya : harley
+          document.write("dia namanya : " + kelinci.nama + "<br />");
+          document.write(`dia berwarna : ${kelinci.warna} <br /> `);
+          document.write("tidurnya " + kelinci.tidur() + "<br />");
+       </script>
+    </body>
+</html>
